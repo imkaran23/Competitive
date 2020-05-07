@@ -45,79 +45,76 @@ Output:
 #include<bits/stdc++.h>
 using namespace std;
 
-int main()
-{
-        int t,n,x,y,weight;
-        cin>>t;
-        while(t--)
-        {
-            cin>>n;
-            vector<pair<int,int> > v[n+1];
-            for (int i = 0; i < n-1; ++i)
-            {
-			scanf("%d%d%d",&x,&y,&weight);
-			v[x].push_back(make_pair(y,weight));
-			v[y].push_back(make_pair(x,weight));
-            }
-            int visited[n+1];
-            memset(visited,-1,sizeof(visited));
-
-            int max=INT_MIN,max_idx,max_val;
-            queue<pair<int,int> >Q;
-            int val,idx;
-            pair<int,int> p;
-            Q.push(v[x].front());
-            visited[v[x].front().first]=0;
-            while(!Q.empty())
-            {
-                p=Q.front();
-                Q.pop();
-                idx=p.first;
-                val=p.second;
-                for (int i = 0; i < v[idx].size(); ++i)
-                {
-                    int index=v[idx][i].first;
-                    int value =v[idx][i].second;
-                    if (visited[index]==-1)
-                    {
-                        Q.push(v[idx][i]);
-                        visited[index]=visited[idx]+value;
-                        if(visited[index] > max)
-                        {
-                            max=visited[index];
-                            max_idx=index;
-                            max_val=value;
-                        }
-                    }
-                }
-            }
-            memset(visited,-1,sizeof(visited));
-            Q.push(make_pair(max_idx,max_val));
-            visited[max_idx]=0;
-
-            while(!Q.empty())
-            {
-                p=Q.front();
-                Q.pop();
-                idx=p.first;
-                val=p.second;
-                for (int i = 0; i < v[idx].size(); ++i)
-                {
-                    int index=v[idx][i].first;
-                    int value =v[idx][i].second;
-                    if (visited[index]==-1)
-                    {
-                        Q.push(v[idx][i]);
-                        visited[index]=visited[idx]+value;
-                        if(visited[index] > max)
-                        {
-                            max=visited[index];
-                        }
-                    }
-                }
-            }
-            printf("%d\n", max);
+int main(){
+    int t,n,x,y,w;
+    cin>>t;
+    while(t--){
+        cin>>n;
+        vector< pair<int,int> > v[n+1];
+       for(int i=0;i<n-1;i++){
+            cin>>x>>y>>w;
+            v[x].push_back(make_pair(y,w));
+            v[y].push_back(make_pair(x,w));
         }
-        return 0;
-}
+        // for(int i=1;i<n+1;i++){
+        //     cout<<i<<":";
+        //     for(int j=0;j<v[i].size();j++){
+        //         cout<<v[i][j].first<<","<<v[i][j].second<<" ";
+        //     }
+        //     cout<<endl;
+        // }
+        int vis[n+1];
+        memset(vis,-1,sizeof(vis));
 
+        int max=INT_MIN,max_idx,max_val,val,idx;
+        queue<pair<int,int> > q;
+        pair<int,int> p;
+        q.push(v[x].front());
+        vis[v[x].front().first]=0;
+
+        while(!q.empty()){
+            p = q.front();
+            q.pop();
+            idx=p.first;
+            val=p.second;
+
+            for (int i = 0; i < v[idx].size(); ++i){
+                int index=v[idx][i].first;
+                int value =v[idx][i].second;
+                if(vis[index]==-1){
+                    q.push(v[idx][i]);
+                    vis[index] = vis[idx] + value;
+                    if(vis[index]>max){
+                        max=vis[index];
+                        max_idx=index;
+                        max_val=value;
+                    }
+                }
+            }
+        }
+
+        memset(vis,-1,sizeof(vis));
+        q.push(make_pair(max_idx,max_val));
+        vis[max_idx]=0;
+        while(!q.empty()){
+            p = q.front();
+            q.pop();
+            idx=p.first;
+            val=p.second;
+
+            for (int i = 0; i < v[idx].size(); ++i){
+                int index=v[idx][i].first;
+                int value =v[idx][i].second;
+                if(vis[index]==-1){
+                    q.push(v[idx][i]);
+                    vis[index] = vis[idx] + value;
+                    if(vis[index]>max)
+                        max=vis[index];
+                }
+            }
+        }
+
+        cout<<max<<endl;
+    }
+    return 0;
+}
