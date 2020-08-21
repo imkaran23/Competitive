@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    int t,n,min_a,min_b,ans;
+    int t,n,min_a,min_b;
     cin>>t;
     while(t--){
         cin>>n;
@@ -19,10 +19,8 @@ int main(){
             if(b[i]<min_b) min_b=b[i];
         }
 
-        ans=0;
-        for(int i=0; i<n; i++){
-            ans += max(a[i]-min_a,b[i]-min_b);
-        }
+        long long ans=0;
+        for(int i=0; i<n; i++) ans += max(a[i]-min_a,b[i]-min_b);
         cout<<ans<<endl;
     }
 }
