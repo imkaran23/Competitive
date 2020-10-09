@@ -16,7 +16,7 @@ int main(){
             } else {
                 even |= ((s[i - 1] - '0') % 2 == 0);
             }
-        }
+        } 
         if (n % 2 == 1) {
             cout << (odd ? 1 : 2) << '\n';
         } else {
