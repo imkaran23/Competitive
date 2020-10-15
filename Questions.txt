@@ -1,0 +1,359 @@
+http://www.spoj.com/problems/ADAGCD/ [+STL]
+
+http://www.spoj.com/problems/ADAHACK/
+
+http://www.spoj.com/problems/ADADUNG/
+
+http://www.spoj.com/problems/ADACAROT/
+
+http://www.spoj.com/problems/ADACON/
+
+http://www.spoj.com/problems/ADATAXES/
+
+http://www.spoj.com/problems/ADADIG/
+
+http://www.spoj.com/problems/ADASETS/
+
+https://codeforces.com/contest/1175/problem/A (2) //[EASY][SYMPATHIC][DIVISION]
+
+https://codeforces.com/contest/1203/problem/C (3) //[NICE][GCD]
+
+https://devskill.com/CodingProblems/ViewProblem/553 (3) //[VERY NICE][SIMPLE]
+
+https://devskill.com/CodingProblems/ViewProblem/560 (2)
+
+https://codeforces.com/contest/1176/problem/B (2) //[MODULO][GREEDY]
+
+https://codeforces.com/contest/1200/problem/C (4) //[VERY NICE][GCD][LCM]
+
+https://codeforces.com/contest/1182/problem/A (2) //[EASY][DP]
+
+https://atcoder.jp/contests/abc136/tasks/abc136_b (2) //[IMPLEMENTATION][CONVERSION]
+
+https://codeforces.com/contest/1185/problem/A (1)
+
+https://codeforces.com/contest/1198/problem/F (6) //[VERY NICE][RANDOM][FACTORISATION][PRIME][GCD]
+
+https://codeforces.com/contest/1183/problem/B (2) //[EASY][FORMULA][MIN/MAX]
+
+https://codeforces.com/contest/1187/problem/A (1) //[EASY][FORMULA]
+
+https://codeforces.com/contest/1195/problem/B (2) //[EASY][GAUSS][BRUTE]
+
+https://codeforces.com/contest/1189/problem/E (5) //[INVERSION][STL]
+
+https://www.spoj.com/problems/CANPR/ (5) //[NICE][MOBIUS] Weird TC (weak?)
+
+https://www.spoj.com/problems/OVISLARSUM/ (3) //[FORMULA][128]
+
+https://www.urionlinejudge.com.br/judge/en/problems/view/2876 (6) //[VERY NICE][GCD][IE]
+
+https://codeforces.com/gym/102058/problem/E (3) //[BRUTE-FORCE][GCD]
+
+https://codeforces.com/gym/101972/problem/A (3) //[EASY][SIMULATION]
+
+https://toph.co/p/pascals-triangle (2)
+
+https://toph.co/p/big-factorials (1)
+
+https://www.codechef.com/viewsolution/21428053 (4) //[SORTING][ANGLES][MATH][COSINUS]
+
+http://codeforces.com/gym/101962 C
+
+http://codeforces.com/gym/101808/problem/G (4) //[GCD][IF][LCM]
+
+http://codeforces.com/gym/101666 L //[GREED][DP] Logarithms
+
+http://codeforces.com/gym/101666 C //[NICE][GCD]
+
+13287 — Shattered Cake (2) //Rectangle
+
+http://codeforces.com/gym/101650 G //Graphs
+
+http://codeforces.com/contest/934/problem/D (4) //Polynomials
+
+8253 — Boss Battle LA
+
+http://codeforces.com/contest/919/problem/E (5) //[MODULAR-MATH]
+
+http://codeforces.com/contest/149/problem/B (3) //Base to 10
+
+http://codeforces.com/contest/148/problem/B (3) //[SIMULATION](math or bs)
+
+http://codeforces.com/contest/148/problem/A (2) //[EASY][SIEVE][BRUTE-FOCE][LCM][IE]
+
+http://www.spoj.com/problems/JGTLE/ (3) //Sum reduction
+
+http://www.spoj.com/problems/BAPM/ (3) //Simple power / Observe, rare colisions
+
+http://codeforces.com/contest/911/problem/C (2) //[Observation][Iff (or brute-froce)]
+
+http://codeforces.com/contest/133/problem/B (2) //Bases + implementation
+
+http://codeforces.com/contest/129/problem/A (1) //Parity
+
+http://codeforces.com/contest/124/problem/D (4)
+
+http://codeforces.com/contest/125/problem/A (1) //mod/div simple — if
+
+http://codeforces.com/contest/902/problem/D (4) //Polynomials / Fibonacci / Bitset
+
+http://codeforces.com/contest/899/problem/D (4) //X99999 possibilities
+
+http://codeforces.com/contest/899/problem/C (3) //[NICE][GREEDY KNAPSACK]
+
+http://codeforces.com/contest/899/problem/A (1)
+
+http://codeforces.com/contest/898/problem/A (1)
+
+http://codeforces.com/gym/101620 {F}(4) //[IFS][INVERSE][CASES]
+
+http://codeforces.com/contest/900/problem/D (4) //[NICE][DIVISORS][GCD][IE]
+
+http://codeforces.com/contest/900/problem/B (2) //Cycles or Brute-force + Division
+
+http://codeforces.com/contest/119/problem/A (2) //[EASY][GCD]
+
+8014 — Birthday Pizza Party (4) //[NICE][OVERFLOW][LCM WITH SHIFT]
+
+7629 — Powers (3) //One path is factorisation
+
+8037 — Military Service (2) //Sample formula
+
+8085 — Divisors (4) //[NICE][PRIMES/FACTORISATION/SIEVE]
+
+6589 — Captain Obvious and the Rabbit-Man (7) //Sylvester's formula
+
+6582 — Magical GCD (4) //[NICE] — Data structures works too
+
+8000 — FizzBuzz (1)
+
+https://devskill.com/CodingProblems/ViewProblem/421 (2) //6 buckets
+
+http://codeforces.com/contest/93/problem/E (5) //[VERY NICE][DP][RECURSION]
+
+http://codeforces.com/contest/86/problem/A (3) //[NICE] 50* is best (unless more digits)
+
+http://codeforces.com/contest/83/problem/D (5) //[VERY NICE][PRIMES][BRUTE-FORE-2]
+
+http://codeforces.com/contest/82/problem/A (2) //Simulation
+
+http://codeforces.com/contest/74/problem/C (4) //gcd
+
+http://codeforces.com/contest/76/problem/E (4) //Divide sumations [BF]
+
+http://codeforces.com/contest/71/problem/C (3) //[EASY][NICE][BRUTE-FORCE][DIVISORS]
+
+http://codeforces.com/contest/70/problem/A (2) //3^(N-1)
+
+http://codeforces.com/contest/43/problem/C (2) //Moduly by 3 {0/2+min(1,2)}
+
+http://codeforces.com/contest/50/problem/A (1) //[EASY]
+
+http://codeforces.com/contest/61/problem/C (4) //Base conversion + roman
+
+UVA 355 //bases conversion
+
+2559 [LA] //Base conversion
+
+https://www.codechef.com/problems/COPRIME3 //Cyka Möbius
+
+http://www.spoj.com/problems/PSTR/ //Cyka Möbius
+
+http://codeforces.com/problemset/problem/803/F //Cyka Möbius
+
+https://devskill.com/CodingProblems/ViewProblem/23
+
+http://codeforces.com/contest/731/problem/F 4
+
+12031 UVA (8)
+
+http://codeforces.com/contest/722/problem/F (8)
+
+http://codeforces.com/contest/716/problem/C 4
+
+http://codeforces.com/contest/711/problem/E (8)
+
+http://codeforces.com/contest/710/problem/D (6)
+
+13154 (UVA) 7
+
+13166 (UVA) 5
+
+11962 (UVA) 2
+
+11718 UVA 3
+
+11510 UVA (5)
+
+11538 UVA (3) //good one — just math
+
+11556 UVA (1)
+
+http://codeforces.com/contest/757/problem/E (8)
+
+http://codeforces.com/contest/758/problem/F (7)
+
+11481 UVA (4)
+
+11237 UVA (4) //Nice — seems like knapsbag but it it not
+
+11155 UVA (4) //Almost as previous problem
+
+11038 UVA (3) //counting digits on interval
+
+http://codeforces.com/contest/763/problem/C (7)
+
+11087 UVA (4) //Sums of two numbers divisible with <=500 (10^5)
+
+http://codeforces.com/contest/678/problem/C 2 //LCM
+
+http://codeforces.com/problemset/problem/665/F (8) //p^3 | p*q
+
+http://www.spoj.com/problems/LCMSUM/ //Vzorec v knihovničce
+
+http://www.spoj.com/problems/FRNDZND/ (2) // (size 1 == 1, else 0)
+
+http://www.spoj.com/problems/EXPOR/ //bit-by-bit (+ formula)
+
+http://www.spoj.com/problems/FACTDIV/ (5) //dyn-update of ans/factors GOOD
+
+http://www.spoj.com/problems/PAIRDIV/ (6) //cyka möbius -_-
+
+http://www.spoj.com/problems/FCDC/ (4) //keep factorized factorial
+
+http://www.spoj.com/problems/NTHPRIME/ (7) // BS + NumPrime GOOD!!
+
+http://www.spoj.com/problems/DIVFACT3/ (7) // Sieve 10^8 + sqrt search
+
+http://www.spoj.com/problems/DIVFACT4/ (8) // Prime count
+
+http://codeforces.com/contest/776/problem/C (4) //segments div. by number
+
+http://codeforces.com/contest/776/problem/E (6) //vypsat cisla: f(N)=Phi(N),g(N)=N
+
+http://www.spoj.com/problems/PHT/ (2) //easy BS (NN+2N) mby math?
+
+http://www.spoj.com/problems/GCDEX/ (7) //OEIS A006579 — enough [well imp]
+
+http://www.spoj.com/problems/APS/ (3) //just sieve + generate
+
+http://www.spoj.com/problems/WPC5I/ (3)//fc: C[a]!=C[b]:F[a]^max(C[a],C[b])
+
+http://www.spoj.com/problems/SPEC_SET/ N→N/k→N/k/k
+
+http://www.spoj.com/problems/DCEPC11B/ (5) //Wilson't theorem!
+
+http://www.spoj.com/problems/FACTMULN/ (5) //each f[i]/c[i] separately
+
+http://www.spoj.com/problems/SPCM/ (4) //just factorisation + prime check (10^12)
+
+http://www.spoj.com/problems/TWOGAME/ (5) //gcd == Power of 3 => YES
+
+http://www.spoj.com/problems/MKEQUAL/ (2) //Chceck if sum is divisible by N
+
+http://www.spoj.com/problems/TIPTOP/ (3) //sqrt(N)==N? NICE!!
+
+http://www.spoj.com/problems/PSYCHON/ (4) // fast factorisation
+
+http://www.spoj.com/problems/ENIGMATH/ (1) // swap and div by gcd
+
+http://www.spoj.com/problems/SNGPG/ (3) // prime gen + check
+
+http://codeforces.com/contest/795/problem/A (2) //brute-force
+
+http://codeforces.com/contest/801/problem/E (6) //NICE! — Clique-DAG + inversion
+
+http://codeforces.com/contest/798/problem/C (4) //GCD == at the beginning OR 2
+
+http://codeforces.com/contest/803/problem/C (3) //Only "low" K and just divisors
+
+10830 (4) //simple add 2→ sqrt(N) + their mirrors
+
+http://codeforces.com/contest/817/problem/A (2) //check division + parity
+
+13209 UVA (3) //Simple simulation of division (+states rememberance)
+
+http://codeforces.com/contest/834/problem/C (4) //Has cube-root + both num divisible by cuberoot
+
+http://codeforces.com/contest/837/problem/E (5) //Factorisation + GCD attributes
+
+http://www.spoj.com/problems/SUMMATION/ (3) //Number contribution: 2^(N-1)
+
+http://www.spoj.com/problems/SECTORS/ (4) //Odd len OR sum of odd indices == sum of even
+
+http://www.spoj.com/problems/IITKWPCM/ (6) //VERY NICE — Gauss's generalisation of Wilsons Theorem
+
+http://www.spoj.com/problems/UCV2013A/ (4) //N*(N^L-1)/(N-1)
+
+http://www.spoj.com/problems/KIMO1/ (4) //NICE — Adding/Subing by modulus
+
+http://www.spoj.com/problems/AFS2/ (4) //Sum of divisort (sqrt(N)) — (+128int)
+
+http://www.spoj.com/problems/FUNNUMS/ (4) //Permutations (get ith + guess ith)
+
+http://www.spoj.com/problems/MAY99_3/ (3) //GCD
+
+http://www.spoj.com/problems/PUCMM334/ (3) //Classical hats problem
+
+http://www.spoj.com/problems/LCPC11B/ (4) //Factorize + count all subsets
+
+http://www.spoj.com/problems/THREENUMBERS/ (2) //EASY & NICE [lcm]
+
+http://www.spoj.com/problems/GAMES/ (2) //EASY&NICE — Go discrete (by 10^k) → 10^k/GCD
+
+http://www.spoj.com/problems/SUBSHARD/ (4) //dig*10^sufix*(choose sufix)*^Prefix [VERY NICE]
+
+http://www.spoj.com/problems/INVDIV/ (6) //Sum of divisors function + factorisation [NICE]
+
+http://www.spoj.com/problems/JNEXT/ (2) //EASY — Zahřívačka pro prváky
+
+http://www.spoj.com/problems/TSHOW1/ (3) //NICE — Almost as binary repre with 5/6
+
+http://codeforces.com/contest/859/problem/B (2) //Easy by iteration
+
+http://codeforces.com/contest/861/problem/A (2) //5,2 division [EASY]
+
+http://www.spoj.com/problems/ABA12D/ (4) //NICE — Formula for sum divisors Prod(Sum(fac-powers))
+
+http://www.spoj.com/problems/MAIN74/ (3) //Fibo's
+
+http://www.spoj.com/problems/NOSQ/ (3) //Sieve + Digit check
+
+http://www.spoj.com/problems/SQUAREV1/ (3) //NICE (but dumb code limit)
+
+http://codeforces.com/contest/597/problem/A (1) //Simple if+2*Divide
+
+http://www.spoj.com/problems/STREETR/ (3) //Easy [GCD]
+
+http://www.spoj.com/problems/HPYNOSII/ (3) //<=1000 after first move
+
+http://www.spoj.com/problems/HPYNOS/ (1) //Same as above — 1 number
+
+http://www.spoj.com/problems/IITD4/ (3) //Brute-force [sieve-like]
+
+http://www.spoj.com/problems/GIRLSNBS/ (2) //Some easy formula
+
+http://www.spoj.com/problems/GUESSTHE/ (2) //NICE [EASY][LCM]
+
+http://codeforces.com/contest/867/problem/B (2) //NICE [observation][1 2]
+
+http://www.spoj.com/problems/NDIVPHI/ (4) //NICE — Multiple of lowest primes [BIG-INT]
+
+http://www.spoj.com/problems/NDIVPHI2/ (5) //NICE — Same as above [bigger constraints]
+
+http://codeforces.com/contest/6/problem/A (1) //Triangle check (4 pts)
+
+http://codeforces.com/contest/869/problem/B (1) //Answer is usually 0
+
+http://codeforces.com/contest/9/problem/C (2) //Bases (2→ 10)
+
+http://codeforces.com/contest/20/problem/B (2) //Ax^2+Bx+C=0 (find roots)
+
+http://codeforces.com/contest/27/problem/E (5) //[VERY NICE]: Factorisation+Recursion
+
+http://codeforces.com/contest/32/problem/C (3) //DSU works too
+
+http://codeforces.com/contest/872/problem/C (3) //NICE — Compose of 4 (mby one 6 or 9)
+
+http://codeforces.com/contest/876/problem/B (3) //Group by modulo
