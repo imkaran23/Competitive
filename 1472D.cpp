@@ -14,7 +14,6 @@ int main(){
             if(x%2) b.push_back(x);
             else a.push_back(x);
         }
-        
         sort(a.begin(), a.end(), greater<>());
         sort(b.begin(), b.end(), greater<>());
         long long sa=0, sb=0;

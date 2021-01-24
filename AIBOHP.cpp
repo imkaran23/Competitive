@@ -63,11 +63,6 @@ int palin(string &str){
         }
     }
 
-    // for(int i=0;i<str.length();i++)
-    // {    for(int j=0;j<str.length();j++)
-    //         cout<<dp[i][j]<<" ";
-    //     cout<<endl;}
-
     return dp[0][str.length()-1];
 }
 
