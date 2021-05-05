@@ -6,12 +6,12 @@ d,1008,Construct Binary Search Tree from Preorder Traversal,78.40%,Medium,0.1100
 d,701,Insert into a Binary Search Tree,77.70%,Medium,0.223378174, https://leetcode.com/problems/insert-into-a-binary-search-tree
 d,1079,Letter Tile Possibilities,75.40%,Medium,0.073502462, https://leetcode.com/problems/letter-tile-possibilities
 p,1198,Find Smallest Common Element in All Rows,74.90%,Medium,0, https://leetcode.com/problems/find-smallest-common-element-in-all-rows
-,1381,Design a Stack With Increment Operation,74.70%,Medium,0.145314098, https://leetcode.com/problems/design-a-stack-with-increment-operation
-,950,Reveal Cards In Increasing Order,74.60%,Medium,0.056592185, https://leetcode.com/problems/reveal-cards-in-increasing-order
-,1104,Path In Zigzag Labelled Binary Tree,72.00%,Medium,0.077860322, https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree
-,1188,Design Bounded Blocking Queue,70.50%,Medium,0.233007281, https://leetcode.com/problems/design-bounded-blocking-queue
-,1415,The k-th Lexicographical String of All Happy Strings of Length n,70.40%,Medium,0, https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n
-,1448,Count Good Nodes in Binary Tree,70.40%,Medium,0, https://leetcode.com/problems/count-good-nodes-in-binary-tree
+d,1381,Design a Stack With Increment Operation,74.70%,Medium,0.145314098, https://leetcode.com/problems/design-a-stack-with-increment-operation
+d,950,Reveal Cards In Increasing Order,74.60%,Medium,0.056592185, https://leetcode.com/problems/reveal-cards-in-increasing-order
+d,1104,Path In Zigzag Labelled Binary Tree,72.00%,Medium,0.077860322, https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree
+p,1188,Design Bounded Blocking Queue,70.50%,Medium,0.233007281, https://leetcode.com/problems/design-bounded-blocking-queue
+d,1415,The k-th Lexicographical String of All Happy Strings of Length n,70.40%,Medium,0, https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n
+d,1448,Count Good Nodes in Binary Tree,70.40%,Medium,0, https://leetcode.com/problems/count-good-nodes-in-binary-tree
 ,419,Battleships in a Board,70.00%,Medium,2.272622595, https://leetcode.com/problems/battleships-in-a-board
 ,338,Counting Bits,69.50%,Medium,0.024325524, https://leetcode.com/problems/counting-bits
 ,979,Distribute Coins in Binary Tree,68.90%,Medium,0.15348689, https://leetcode.com/problems/distribute-coins-in-binary-tree
