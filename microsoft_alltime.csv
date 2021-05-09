@@ -12,23 +12,23 @@ d,1104,Path In Zigzag Labelled Binary Tree,72.00%,Medium,0.077860322, https://le
 p,1188,Design Bounded Blocking Queue,70.50%,Medium,0.233007281, https://leetcode.com/problems/design-bounded-blocking-queue
 d,1415,The k-th Lexicographical String of All Happy Strings of Length n,70.40%,Medium,0, https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n
 d,1448,Count Good Nodes in Binary Tree,70.40%,Medium,0, https://leetcode.com/problems/count-good-nodes-in-binary-tree
-,419,Battleships in a Board,70.00%,Medium,2.272622595, https://leetcode.com/problems/battleships-in-a-board
-,338,Counting Bits,69.50%,Medium,0.024325524, https://leetcode.com/problems/counting-bits
-,979,Distribute Coins in Binary Tree,68.90%,Medium,0.15348689, https://leetcode.com/problems/distribute-coins-in-binary-tree
-,442,Find All Duplicates in an Array,67.80%,Medium,0.722654673, https://leetcode.com/problems/find-all-duplicates-in-an-array
-,969,Pancake Sorting,67.50%,Medium,0.27343005, https://leetcode.com/problems/pancake-sorting
-,702,Search in a Sorted Array of Unknown Size,66.90%,Medium,0.845889409, https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size
-,406,Queue Reconstruction by Height,66.90%,Medium,0.106076463, https://leetcode.com/problems/queue-reconstruction-by-height
-,784,Letter Case Permutation,64.60%,Medium,0.169099075, https://leetcode.com/problems/letter-case-permutation
-,1236,Web Crawler,64.30%,Medium,0.336472237, https://leetcode.com/problems/web-crawler
-,280,Wiggle Sort,63.80%,Medium,0.435842558, https://leetcode.com/problems/wiggle-sort
-,973,K Closest Points to Origin,63.80%,Medium,0.110875103, https://leetcode.com/problems/k-closest-points-to-origin
-,362,Design Hit Counter,63.70%,Medium,0.815205554, https://leetcode.com/problems/design-hit-counter
-,46,Permutations,63.50%,Medium,1.672714679, https://leetcode.com/problems/permutations
-,1273,Delete Tree Nodes,63.50%,Medium,0, https://leetcode.com/problems/delete-tree-nodes
-,94,Binary Tree Inorder Traversal,63.30%,Medium,1.104365048, https://leetcode.com/problems/binary-tree-inorder-traversal
-,739,Daily Temperatures,63.30%,Medium,0.116465752, https://leetcode.com/problems/daily-temperatures
-,1318,Minimum Flips to Make a OR b Equal to c,62.80%,Medium,0, https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c
+d,419,Battleships in a Board,70.00%,Medium,2.272622595, https://leetcode.com/problems/battleships-in-a-board
+d,338,Counting Bits,69.50%,Medium,0.024325524, https://leetcode.com/problems/counting-bits
+d,979,Distribute Coins in Binary Tree,68.90%,Medium,0.15348689, https://leetcode.com/problems/distribute-coins-in-binary-tree
+d,442,Find All Duplicates in an Array,67.80%,Medium,0.722654673, https://leetcode.com/problems/find-all-duplicates-in-an-array
+d,969,Pancake Sorting,67.50%,Medium,0.27343005, https://leetcode.com/problems/pancake-sorting
+p,702,Search in a Sorted Array of Unknown Size,66.90%,Medium,0.845889409, https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size
+d,406,Queue Reconstruction by Height,66.90%,Medium,0.106076463, https://leetcode.com/problems/queue-reconstruction-by-height
+d,784,Letter Case Permutation,64.60%,Medium,0.169099075, https://leetcode.com/problems/letter-case-permutation
+p,1236,Web Crawler,64.30%,Medium,0.336472237, https://leetcode.com/problems/web-crawler
+p,280,Wiggle Sort,63.80%,Medium,0.435842558, https://leetcode.com/problems/wiggle-sort
+d,973,K Closest Points to Origin,63.80%,Medium,0.110875103, https://leetcode.com/problems/k-closest-points-to-origin
+p,362,Design Hit Counter,63.70%,Medium,0.815205554, https://leetcode.com/problems/design-hit-counter
+d,46,Permutations,63.50%,Medium,1.672714679, https://leetcode.com/problems/permutations
+p,1273,Delete Tree Nodes,63.50%,Medium,0, https://leetcode.com/problems/delete-tree-nodes
+d,94,Binary Tree Inorder Traversal,63.30%,Medium,1.104365048, https://leetcode.com/problems/binary-tree-inorder-traversal
+d,739,Daily Temperatures,63.30%,Medium,0.116465752, https://leetcode.com/problems/daily-temperatures
+d,1318,Minimum Flips to Make a OR b Equal to c,62.80%,Medium,0, https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c
 ,22,Generate Parentheses,62.70%,Medium,2.078567034, https://leetcode.com/problems/generate-parentheses
 ,695,Max Area of Island,62.70%,Medium,0.934069822, https://leetcode.com/problems/max-area-of-island
 ,1375,Bulb Switcher III,62.60%,Medium,0.291738873, https://leetcode.com/problems/bulb-switcher-iii
