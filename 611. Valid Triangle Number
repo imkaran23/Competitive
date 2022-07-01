@@ -1,0 +1,26 @@
+class Solution {
+public:
+    int triangleNumber(vector<int>& nums) {
+        if(nums.size()<3) return 0; // you can't form a triangle without 3 sides :")
+        int res = 0;
+        sort(nums.begin(), nums.end()); // sorted the array so the sides get in increasing order
+
+        for(int i = 2; i<nums.size(); i++){
+            // we have started from index 2 so that the index 0 and index 1 elements 
+            // can be considered in the iteration.
+            int l = 0, r = i - 1;
+            while(l < r){
+                if(nums[l] + nums[r] > nums[i]){
+                    // if the element at Lth and Rth index satisfy our required condition 
+                    // all the elements between Lth index and Rth index satisfy the same 
+                    // condition too since the array is in increasing order
+                    res += (r - l);
+                    r--;
+                }else{
+                    l++;
+                }
+            }
+        }
+        return res;
+    }
+};
