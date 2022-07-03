@@ -1,0 +1,83 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    
+     int widthOfBinaryTree(TreeNode* root) {
+         
+        if (!root) return 0;
+        unsigned long long ans = 0;
+        queue<pair<TreeNode*, unsigned long long>> q;
+        q.push({root, 1});
+         
+        while (!q.empty()) {
+            unsigned long long l = q.front().second, r = l; // right started same as left
+            for (int i = 0, n = q.size(); i < n; i++) {
+                TreeNode* node = q.front().first;
+                r = q.front().second;
+                q.pop();
+                if (node->left) q.push(pair<TreeNode*, int>(node->left, r * 2));
+                if (node->right) q.push(pair<TreeNode*, int>(node->right, r * 2 + 1));
+            }
+            ans = max(ans, r + 1 - l);
+        }
+        return ans;
+    }
+    
+//     TLE 
+        
+//     void dfs(TreeNode* root, int& ans, int level){
+//         if(root==NULL) return;
+//         ans = max(ans,level);
+//         dfs(root->left, ans, level+1);
+//         dfs(root->right, ans, level+1);
+//     }
+    
+//     int widthOfBinaryTree(TreeNode* root) {
+        
+//         deque<TreeNode*> q , tmp;
+//         q.push_back(root);
+        
+//         int height = 0;
+//         dfs(root, height, 1);
+        
+//         int ans = 1;
+        
+//         while(height--){
+            
+//             int n = q.size();            
+//             while(n--){
+//                 auto node = q.front();
+//                 q.pop_front();
+                
+//                 if(node == NULL){
+//                     q.push_back(NULL);
+//                     q.push_back(NULL);
+//                 }
+//                 else{
+//                     q.push_back(node->left);
+//                     q.push_back(node->right);
+//                 }
+//             }
+            
+//             tmp = q;
+        
+//             while(!q.empty() && q.front()==NULL) q.pop_front();
+//             while(!q.empty() && q.back()==NULL) q.pop_back();
+//             ans = max(ans, (int)q.size());
+            
+//             q = tmp;
+//         }
+        
+//         return ans;
+    // }
+};

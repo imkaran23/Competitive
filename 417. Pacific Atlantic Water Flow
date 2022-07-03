@@ -1,0 +1,66 @@
+class Solution {
+public:
+    bool isValid(int x, int y, int n, int m){
+        return (x>=0 && x<n && y>=0 && y<m);    
+    }
+    
+    vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
+        int n = heights.size();
+        int m = heights[0].size();
+        int dx[] = {1,-1,0,0};
+        int dy[] = {0,0,1,-1};
+        
+        vector<vector<int>> visp(n, vector<int>(m,0));
+        vector<vector<int>> visa(n, vector<int>(m,0));
+        
+        queue<pair<int,int>> p, a;
+        
+        for(int i = 0; i<n; i++) p.push({i,0}) , visp[i][0] = 1;
+        for(int j = 0; j<m; j++) p.push({0,j}) , visp[0][j] = 1;
+        
+        for(int i = 0; i<n; i++) a.push({i,m-1}) , visa[i][m-1] = 1;
+        for(int j = 0; j<m; j++) a.push({n-1,j}) , visa[n-1][j] = 1;
+        
+        while(!p.empty()){
+            int x = p.front().first;
+            int y =  p.front().second;
+            p.pop();
+            
+            for(int i = 0; i<4; i++){
+                int xnew = x + dx[i];
+                int ynew = y + dy[i];
+                
+                if(isValid(xnew, ynew, n, m) && visp[xnew][ynew]==0 && heights[xnew][ynew]>=heights[x][y]){
+                    visp[xnew][ynew] = 1;
+                    p.push({xnew,ynew});
+                }
+            }
+        }
+        
+        while(!a.empty()){
+            int x = a.front().first;
+            int y =  a.front().second;
+            a.pop();
+            
+            for(int i = 0; i<4; i++){
+                int xnew = x + dx[i];
+                int ynew = y + dy[i];
+                
+                if(isValid(xnew, ynew, n, m) && visa[xnew][ynew]==0 && heights[xnew][ynew]>=heights[x][y]){
+                    visa[xnew][ynew] = 1;
+                    a.push({xnew,ynew});
+                }
+            }
+        }
+        
+        vector<vector<int>> ans;
+        
+        for(int i = 0; i<n; i++)
+        for(int j = 0; j<m; j++) {
+            if(visp[i][j]==1 && visa[i][j]==1)
+                ans.push_back({i,j});
+        }
+        
+        return ans;
+    }
+};

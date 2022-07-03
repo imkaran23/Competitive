@@ -1,0 +1,29 @@
+class Solution {
+public:
+    int compress(vector<char>& chars) {
+        int i = 0, j = 0, ans = 0 , k = 0;
+        
+        while(i < chars.size()){
+            int tmp = 0;
+            
+            while(j<chars.size() && chars[i] == chars[j]) j++ , tmp++;
+            
+            if(tmp == 1) {
+                ans++;
+                chars[k] = chars[i];
+                k++;
+            }
+            else {
+                ans++;
+                chars[k] = chars[i];
+                k++;
+                string s = to_string(tmp);
+                for(auto ch : s) chars[k] = ch, k++ , ans++;
+            }
+            
+            i = j;
+        }
+        
+        return ans;
+    }
+};
