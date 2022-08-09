@@ -22,10 +22,26 @@ int main(){
     // for(int i=0; i<n; i++) cout<<p[i]<<' ';
     // cout<<'\n';
 
-    for(int i = n-1; i>=0; i--){
+    // for(int i = n-1; i>=0; i--){
+    //     if(p[i] > (i+1)*l){
+    //         cout<<i<<"\n";
+    //         for(int j = 0; j<=i; j++) a[j] = l;
+    //         break;
+    //     }
+    // }
+
+    int idx = -1;
+    for(int i = 0; i<n; i++){
         if(p[i] > (i+1)*l){
+            idx = i;
             cout<<i<<"\n";
-            for(int j = 0; j<=i; j++) a[j] = l;
+            // for(int j = 0; j<=i; j++) a[j] = l;
+            // break;
+        }
+        else{
+            if(idx != -1){
+                for(int j = 0; j<=idx; j++) a[j] = l;
+            }
             break;
         }
     }
@@ -43,10 +59,24 @@ int main(){
     // for(int i=0; i<n; i++) cout<<p[i]<<' ';
     // cout<<'\n';
 
+    // for(int i = 0; i<n; i++){
+    //     if(p[i] > (n-i)*r){
+    //         cout<<i<<"\n";
+    //         for(int j = i; j<n; j++) a[j] = r;
+    //         break;
+    //     }
+    // }
+
+    idx = -1;
     for(int i = n-1; i>=0; i--){
         if(p[i] > (n-i)*r){
-            cout<<i<<"\n";
-            for(int j = i; j<n; j++) a[j] = r;
+            idx = i;
+            cout<<i<<"\n";            
+        }
+        else{
+            if(idx != -1){
+                for(int j = idx; j<n; j++) a[j] = r;
+            }
             break;
         }
     }
