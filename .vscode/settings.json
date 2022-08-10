@@ -2,7 +2,8 @@
     "files.associations": {
         "iostream": "cpp",
         "tuple": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "ostream": "cpp"
     },
     // "synthwave84.brightness": 1
 }
