@@ -3,7 +3,8 @@
         "iostream": "cpp",
         "tuple": "cpp",
         "vector": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "rope": "cpp"
     },
     // "synthwave84.brightness": 1
 }
