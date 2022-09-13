@@ -21,11 +21,24 @@ int main(){
     // cin>>t;
 
     while(T--){
-        cin>>n;
-        string s;
-        cin>>s;
+        cin>>n>>m;
+        a.resize(n);
+        b.resize(m);
+        for(int i=0; i<n ;i++) cin>>a[i];
+        for(int i=0; i<m ;i++) cin>>b[i];
 
-        
+        long long l = 0, h = INT_MAX, ans = -1;
+        while(l<=h){
+            int mid = l + (h-l)/2;
+            if(check(mid)){
+                ans = mid;
+                h = mid-1;
+            }
+            else 
+                l = mid+1;
+        }
+
+        cout<<ans;
     }
 
     return 0;
