@@ -1,6 +1,57 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#define ll long long 
+
+vector<int> getNumPairs(vector<int> a, vector<int> queries){
+   // int n;
+   //  cin>>n;
+   //  vector<ll> a(n);
+   //  for(auto &i : a)
+   //      cin>>i;
+
+   int n = a.size();
+    map<ll, ll> pref, suff;
+    ll curr = 0;
+    for (int i = 0; i < n; ++i)
+    {
+        curr = max((ll)a[i], curr);
+        pref[curr]++;
+    }
+    curr = INT_MAX;
+    for (int i = n-1; i >= 0; --i)
+    {
+        curr = min((ll)a[i], curr);
+        suff[curr]++;
+    }
+
+   //  int q;
+   //  cin>>q;
+
+   int q = queries.size();
+    vector<int> res;
+    for(int i=0; i<q; i++) {
+      //   cin>>n;
+        n = queries[i];
+        ll val = 0;
+        for (int i = 1; i <= sqrt(n); ++i)
+        {
+            if(n % i == 0){
+                if(i != n / i)
+                    val += suff[i] * pref[n / i];
+                val += pref[i] * suff[n / i];
+            }
+        }
+        res.push_back(val);
+    }
+
+    return res;
+
+   //  for(auto i : res)
+   //      cout<<i<<' ';
+   //  cout<<endl;
+}
+
 vector<string> split(string& s) {
    string k;
    vector<string>ans;
